@@ -69,5 +69,17 @@ http://awhitford.github.io/lombok.maven/lombok-maven-plugin/faq.html
 ##### @Data   ：註解在類上；提供類所有屬性的 getting 和 setting 方法，此外還提供了equals、canEqual、hashCode、toString 方法         
 ##### @Setter：註解在屬性上；為屬性提供 setting 方法         
 ##### @Getter：註解在屬性上；為屬性提供 getting 方法         
-##### @Log4j ：註解在類上；為類提供一個屬性名為log 的log4j 日誌對象@NoArgsConstructor：註解在類上；為類提供一個無參的構造方法
+##### @Log4j ：註解在類上；為類提供一個屬性名為log 的log4j 日誌對象
+##### @NoArgsConstructor：註解在類上；為類提供一個無參的構造方法
 ##### @AllArgsConstructor：註解在類上；為類提供一個全參的構造方法
+
+## 服務列表
+|Service name               | Descriptiion  | Port |
+|---------------------------|:-------------:|-----:|
+| uaa                       |user acc  auth | 8080 |
+| openid-sso                |單一遷入        | 8081 |
+| customer-portal           | customer      | 8082 |
+| menu-service              | menu          | 8083 |
+| admin-portal              | admin         | 8084 |
+| order-service             | admin         | 8085 |
+| token-encryption-gateway  | gateway       | 8086 |
